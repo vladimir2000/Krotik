@@ -1,0 +1,23 @@
+body{
+	margin: 0;
+	background: orange;
+}
+
+.main{
+	display: flex;
+	margin: 100px 100px;
+}
+.hole{
+	height: 200px;
+	width: 200px;
+	background-image: url(dirt.svg);
+	margin-left: 50px;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+.krote {
+	position: absolute;
+	width: 150px;
+	height: 300px;
+	z-index: 1;
+}
